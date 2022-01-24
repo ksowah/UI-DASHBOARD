@@ -1,0 +1,113 @@
+.chart{
+    margin: 4rem 2.5rem;
+    width: 400px;
+    height: 400px;
+    background-color:#ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.chart__head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+
+}
+
+.chart__data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.chart__diagram{
+    width: 200px;
+    height: fit-content;
+}
+
+.chart__icon{
+    background-color: #d9e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+}
+
+.data__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0.5rem 2rem;
+}
+
+.data__one, .data__two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.data__size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.legend{
+    width: 9px;
+    height: 9px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.brown{
+    background-color: rgba(235, 162, 114, 0.781);
+}
+
+.blue{
+    background-color: rgb(172, 114, 199);
+}
+
+.green{
+    background-color: rgb(85, 158, 118);
+}
+
+.dark{
+    background-color: rgb(90, 53, 53);
+}
+
+.data__size > p{
+    font-size: 0.8rem;
+    color: #a1a5a5;
+}
+
+.data__size > p{
+    font-size: 0.8rem;
+    color: #a1a5a5;
+}
+
+@media (max-width: 1230px){
+    .chart{
+        width: 500px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 560px){
+    .chart{
+        width: 350px;
+    }
+}
+
