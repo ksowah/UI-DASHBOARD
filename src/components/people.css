@@ -1,0 +1,30 @@
+.people{
+    margin: 4rem 2.5rem;
+    width: 500px;
+    height: 400px;
+    background-color:rgb(255, 251, 251);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.people__head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hr{
+    margin: 2rem 0;
+    border-width: 0;
+    height: 1px;
+    background-color: rgb(230, 223, 223);
+}
+
+@media (max-width: 560px){
+    .people{
+        width: 350px;
+    }
+}
