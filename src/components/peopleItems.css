@@ -1,0 +1,75 @@
+.people-item{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.people-item > p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 200px;
+}
+
+.icon{
+    background-color: rgb(85, 158, 118);
+    padding: 0.5rem 0.6rem;
+    border-radius: 10px;
+
+}
+
+.blue{
+    background-color: rgb(108, 87, 156);
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.brown{
+    background-color: rgb(235, 162, 114);
+}
+
+.images{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+}
+
+.images > img{
+    width: 35px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 3px solid #ffff;
+}
+
+.img{
+    margin-left: -10px;
+}
+
+.number{
+    width: 35px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 3px solid #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edee;
+    margin-left: -10px;
+}
+
+.number > p{
+    font-size: 0.8rem;
+    color: #909696;
+}
+
+.date > P{
+    font-size: 0.8rem;
+    color: #909494;
+}
+
+.none{
+    display: none;
+}
